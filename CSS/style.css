@@ -3,7 +3,7 @@
   padding: 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-main {
+.Main1 {
   background: url("/IMAGES/daniel-abadia-kn5i4gUyhYM-unsplash.jpg") no-repeat
     center/cover;
   background-size: cover;
@@ -52,6 +52,15 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.headerHH {
+  background: url("/IMAGES/cosmic-timetraveler-zh_ofCt2r9c-unsplash.jpg")
+    no-repeat center/cover;
+  background-size: cover;
+  background-position: center top 8%;
+  padding: 20px;
+  height: 30vh;
 }
 header {
   padding: 15px 0;
