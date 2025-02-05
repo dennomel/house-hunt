@@ -20,6 +20,14 @@
   padding: 0;
   list-style: none;
 }
+.search-form {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  border-radius: 10px;
+  height: 40px;
+  padding: 5px;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -50,7 +58,8 @@ footer {
 .copyright {
   justify-content: center;
 }
-.pages {
+.nav {
+  list-style: none;
   justify-content: center;
 }
 .contact {
