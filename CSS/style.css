@@ -7,7 +7,7 @@ main {
   background: url("/IMAGES/daniel-abadia-kn5i4gUyhYM-unsplash.jpg") no-repeat
     center/cover;
   background-size: cover;
-  background-position: center top 10%;
+  background-position: center top 8%;
   padding: 20px;
   height: 200vh;
 }
@@ -58,8 +58,24 @@ header {
   margin: 0;
   color: white;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+.container p {
+  font-size: 1.5rem;
+}
+.container h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
 main {
-  flex: 1;
+  flex: 5;
 }
 .shortcuts {
   display: flex;
