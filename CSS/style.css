@@ -61,6 +61,8 @@ body {
   background-position: center top 8%;
   padding: 20px;
   height: 30vh;
+  display: flex;
+  justify-content: space-between;
 }
 header {
   padding: 15px 0;
