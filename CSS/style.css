@@ -84,6 +84,9 @@ header {
   font-size: 3rem;
   margin-bottom: 10px;
 }
+.containeHH {
+  text-align: center;
+}
 
 main {
   flex: 5;
