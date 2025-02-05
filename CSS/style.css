@@ -2,10 +2,12 @@
   margin: 0;
   padding: 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #ffff;
 }
 main {
-  background: url("/IMAGES/home.jfif") no-repeat center/cover;
+  background: url("/IMAGES/daniel-abadia-kn5i4gUyhYM-unsplash.jpg") no-repeat
+    center/cover;
+  background-size: cover;
+  background-position: top center;
   padding: 20px;
   height: 50vh;
 }
@@ -16,7 +18,7 @@ main {
   float: left;
 }
 .nav {
-  color: #ffff;
+  color: #004466;
 }
 .nav-items ul {
   color: white;
@@ -24,7 +26,7 @@ main {
   align-items: center;
   display: flex;
   padding: 20px;
-  gap: 20px;
+  gap: 50px;
   padding: 0;
   list-style: none;
 }
@@ -35,12 +37,21 @@ main {
   border-radius: 10px;
   height: 40px;
   padding: 5px;
+  text-size-adjust: 40px;
+}
+.search-input {
+  display: flex;
+  color: black;
 }
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
 }
 header {
   padding: 15px 0;
