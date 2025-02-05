@@ -58,7 +58,7 @@ body {
   background: url("/IMAGES/cosmic-timetraveler-zh_ofCt2r9c-unsplash.jpg")
     no-repeat center/cover;
   background-size: cover;
-  background-position: center top 20%;
+  background-position: center top 30%;
   padding: 20px;
   height: 20vh;
   display: flex;
@@ -85,7 +85,7 @@ header {
   margin-bottom: 10px;
 }
 .containeHH {
-  text-align: center;
+  justify-content: center;
 }
 
 main {
