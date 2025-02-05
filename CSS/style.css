@@ -7,9 +7,9 @@ main {
   background: url("/IMAGES/daniel-abadia-kn5i4gUyhYM-unsplash.jpg") no-repeat
     center/cover;
   background-size: cover;
-  background-position: top center;
+  background-position: center top 10%;
   padding: 20px;
-  height: 50vh;
+  height: 200vh;
 }
 
 .icon {
@@ -85,6 +85,11 @@ main {
   color: #666;
   line-height: 2;
   font-size: 14px;
+}
+.shortcut h3 {
+  margin: 10px 0 5px;
+  font-size: 20px;
+  color: #333;
 }
 footer {
   display: flex;
