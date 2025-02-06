@@ -212,7 +212,6 @@ section img {
   max-width: 100%;
   object-fit: cover;
 }
-div {
-}
-.contact {
+.contact-section {
+  justify-content: center;
 }
