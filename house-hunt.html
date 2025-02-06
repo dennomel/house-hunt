@@ -77,12 +77,17 @@
             placeholder="Add any other preferences that you have"
           />
           <h3>Your Contact Information</h3>
+          <p>
+            kindly key in your contact information where we can reach out if we
+            find your dream house
+          </p>
           <label for="name">Full Name</label>
           <input
             type="text"
             id="Name"
             name="name"
             placeholder="Enter Your Name"
+            required
           />
           <label for="Email">Email Address</label>
           <input
@@ -90,8 +95,21 @@
             id="Email"
             name="Email"
             placeholder="Enter your email"
+            required
           />
+          <label for="phone">Phone Number</label>
+          <input
+            type="number"
+            id="phone"
+            name="phone"
+            placeholder="Enter Your Phone Number"
+            required
+          />
+          <button type="submit">Submit Request</button>
         </form>
+        <p id="success-message" clss="hidden">
+          Thank you! Your request has been submitted succesfully.
+        </p>
       </section>
     </main>
 

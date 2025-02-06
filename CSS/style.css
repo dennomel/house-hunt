@@ -64,6 +64,27 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.headerB {
+  background: url("/IMAGES/mary-hammel-9ADXGjkn91Q-unsplash.jpg") no-repeat
+    center/cover;
+  background-size: cover;
+  background-position: center top 10%;
+  padding: 20px;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+}
+.headerC {
+  background: url("/IMAGES/carson-masterson-uWDL94Lny04-unsplash.jpg") no-repeat
+    center/cover;
+  background-size: cover;
+  background-position: center top 50%;
+  padding: 20px;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+}
+
 header {
   padding: 15px 0;
   margin: 0;
