@@ -11,3 +11,19 @@ document.addEventListener("DOMContentLoaded", function () {
 const name=document.getElementById("Name").ariaValueMax.trim();
 const name=document.getElementById("Email").ariaValueMax.trim();
 const name=document.getElementById("phone").ariaValueMax.trim();
+
+//validate form sections
+
+if (name===""|| email ===""||phone==="") {
+    alert("please fill in all required fields."); return;
+  }
+
+        if (!validateEmail(email)) {
+            alert("Please enter a valid email address.");
+            return;
+        }
+
+        if (!validatePhone(phone)) {
+            alert("Please enter a valid phone number.");
+            return;
+        }
