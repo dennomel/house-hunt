@@ -268,3 +268,14 @@ textarea {
   resize: vertical;
   border: 1px solid #ccc;
 }
+.about {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  justify-content: center;
+}
+.Main3 {
+  padding: 40px 20px;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 10px;
+}
