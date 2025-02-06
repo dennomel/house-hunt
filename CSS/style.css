@@ -241,7 +241,7 @@ textarea {
   border-radius: 5px;
 }
 
-button {
+.request-button {
   color: white;
   background: #004466;
   padding: 10px;
@@ -252,7 +252,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.request-button:hover {
   background: #555;
 }
 #input-field {
