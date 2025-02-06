@@ -8,8 +8,11 @@
     center/cover;
   background-size: cover;
   background-position: center top 8%;
-  padding: 20px;
+  padding: 10px;
   height: 200vh;
+}
+.MainB {
+  justify-content: center;
 }
 
 .icon {
@@ -53,6 +56,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
 }
 .headerHH {
   background: url("/IMAGES/cosmic-timetraveler-zh_ofCt2r9c-unsplash.jpg")
@@ -214,4 +218,5 @@ section img {
 }
 .contact-section {
   justify-content: center;
+  align-items: center;
 }
