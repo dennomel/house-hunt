@@ -9,64 +9,76 @@
   </head>
 
   <body>
-    <main class="Main1">
-      <header class="header">
-        <div class="icon">
-          <h2 class="Logo">HaoHunt</h2>
-        </div>
+    <header class="headerHH">
+      <div class="icon">
+        <h2 class="Logo">HaoHunt</h2>
+      </div>
+      <div>
+        <nav class="nav-items">
+          <ul>
+            <li><a href="./Index1.html">Home</a></li>
+            <li><a href="./house-hunt.html">House Hunt Search</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <form class="search-form">
+        <input type="text" placeholder="search..." class="search-input" />
+        <button type="submit" class="search-button">Search</button>
+      </form>
+    </header>
+    <main>
+      <section class="form-selection">
         <div>
-          <nav class="nav-items">
-            <ul>
-              <li><a href="./Index1.html">Home</a></li>
-              <li><a href="./house-hunt.html">House Hunt Search</a></li>
-              <li><a href="./about.html">About Us</a></li>
-              <li><a href="./contact.html">Contact Us</a></li>
-            </ul>
-          </nav>
+          <h2>Find Your Perfect Home</h2>
+          <p>
+            Fill out the details below and let us help you find a house that
+            matches your needs
+          </p>
         </div>
-        <form class="search-form">
-          <input type="text" placeholder="search..." class="search-input" />
-          <button type="submit" class="search-button">Search</button>
+        <form id="house-hunt form">
+          <label for="location">Location of preference</label>
+          <input
+            type="text"
+            id="location"
+            name="location"
+            placeholder="Enter city"
+          />
+          <label for="budget">Budget Range ($)</label>
+          <input
+            type="number"
+            id="budget"
+            name="budget"
+            placeholder="maximum"
+          />
+          <input
+            type="number"
+            id="budget"
+            name="budget"
+            placeholder="minimum"
+          />
+          <label for="bedroom">Number of bedrooms</label>
+          <select name="bedrooms" id="bedrooms">
+            <option value="1">1 Bedroom</option>
+            <option value="2">2 Bedroom</option>
+            <option value="3">3 Bedroom</option>
+          </select>
+          <label for="type">Type of house</label>
+          <select name="Type of House" id=" Type of house">
+            <option value="Bedsitter">Bedsitter</option>
+            <option value="Apartment">Apartment</option>
+          </select>
+          <label for="Additional info">Additional preferences</label>
+          <input
+            type="text"
+            id="Additional"
+            name="Additional"
+            placeholder="Add any other preferences that you have"
+          />
         </form>
-      </header>
-      <div class="container">
-        <h1>House Hunting Solutions</h1>
-        <p>Your Dream Home is Just a Click Away</p>
-      </div>
+      </section>
     </main>
-
-    <section class="shortcuts">
-      <div class="shortcut">
-        <a href="house-hunt.html" class="shortcut">
-          <img src="./IMAGES/home.jfif" alt="House Hunting" />
-          <h3>Find a Home</h3>
-        </a>
-        <p>
-          Find your dream house by specifying your requirements and searching
-          available listings.
-        </p>
-      </div>
-      <div class="shortcut">
-        <a href="about.html" class="shortcut">
-          <img src="IMAGES/about.jfif" alt="About us" />
-          <h3>About us</h3>
-        </a>
-        <p>
-          Learn more about HaoHunt, our mission, and how we help you find the
-          best housing options.
-        </p>
-      </div>
-      <div class="shortcut">
-        <a href="contact.html" class="shortcut">
-          <img src="./IMAGES/contact.jfif" alt="Contact Us" />
-          <h3>Contact Us</h3>
-        </a>
-        <p>
-          Reach out to us for inquiries, support, or assistance in your
-          house-hunting journey.
-        </p>
-      </div>
-    </section>
 
     <footer>
       <div class="footer-container">
