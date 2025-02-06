@@ -68,7 +68,7 @@ body {
   background: url("/IMAGES/mary-hammel-9ADXGjkn91Q-unsplash.jpg") no-repeat
     center/cover;
   background-size: cover;
-  background-position: center top 10%;
+  background-position: center top 15%;
   padding: 20px;
   height: 20vh;
   display: flex;
@@ -78,7 +78,7 @@ body {
   background: url("/IMAGES/carson-masterson-uWDL94Lny04-unsplash.jpg") no-repeat
     center/cover;
   background-size: cover;
-  background-position: center top 50%;
+  background-position: center top 60%;
   padding: 20px;
   height: 20vh;
   display: flex;
