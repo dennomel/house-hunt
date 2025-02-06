@@ -27,3 +27,7 @@ if (name===""|| email ===""||phone==="") {
             alert("Please enter a valid phone number.");
             return;
         }
+    //display success message
+    successMessage.textContent="Thank you! Your request has been submitted succesfully.";
+    successMessage.style.display="block";
+    successMessage.style.color="green";
