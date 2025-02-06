@@ -31,3 +31,18 @@ if (name===""|| email ===""||phone==="") {
     successMessage.textContent="Thank you! Your request has been submitted succesfully.";
     successMessage.style.display="block";
     successMessage.style.color="green";
+
+    //clear form fields
+    form.reset();
+  });
+   function validateEmail(email) {
+    function validateEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+
+    function validatePhone(phone) {
+        const phoneRegex = /^\d{10}$/; // Assumes a 10-digit phone number
+        return phoneRegex.test(phone);
+    }
+   }
